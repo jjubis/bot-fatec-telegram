@@ -1,0 +1,16 @@
+{
+  "name": "bot-fatec-telegram",
+  "version": "1.0.0",
+  "description": "Bot de horários FATEC Mogi Mirim",
+  "main": "bot_telegram.js",
+  "scripts": {
+    "start": "node bot_telegram.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
