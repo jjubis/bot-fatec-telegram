@@ -526,6 +526,12 @@ cron.schedule('* * * * *', () => {
   });
 });
 
+const http = require('http');
+http.createServer((req, res) => {
+  res.write('Bot online');
+  res.end();
+}).listen(process.env.PORT || 3000);
+
 // INICIALIZAÇÃO //
 
 console.log('🤖 Bot FATEC Mogi Mirim rodando...');
